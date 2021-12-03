@@ -99,7 +99,7 @@ public class Sim extends CordovaPlugin {
               String countryIso = subscriptionInfo.getCountryIso();
               int dataRoaming = subscriptionInfo.getDataRoaming();  // 1 is enabled ; 0 is disabled
               CharSequence displayName = subscriptionInfo.getDisplayName();
-              String iccId = subscriptionInfo.getIccId();
+              // String iccId = subscriptionInfo.getIccId();
               int mcc = subscriptionInfo.getMcc();
               int mnc = subscriptionInfo.getMnc();
               String number = subscriptionInfo.getNumber();
@@ -128,7 +128,7 @@ public class Sim extends CordovaPlugin {
               if (deviceId != null) {
                 simData.put("deviceId", deviceId);
               }
-              simData.put("simSerialNumber", iccId);
+              // simData.put("simSerialNumber", iccId);
               simData.put("subscriptionId", subscriptionId);
 
               sims.put(simData);
