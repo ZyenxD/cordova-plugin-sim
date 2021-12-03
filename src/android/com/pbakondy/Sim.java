@@ -165,7 +165,7 @@ public class Sim extends CordovaPlugin {
         // deviceId = manager.getDeviceId();
         deviceSoftwareVersion = manager.getDeviceSoftwareVersion();
         // simSerialNumber = manager.getSimSerialNumber();
-        subscriberId = manager.getSubscriberId();
+        // subscriberId = manager.getSubscriberId();
       }
 
       String mcc = "";
@@ -206,7 +206,7 @@ public class Sim extends CordovaPlugin {
         // result.put("deviceId", deviceId);
         result.put("deviceSoftwareVersion", deviceSoftwareVersion);
         // result.put("simSerialNumber", simSerialNumber);
-        result.put("subscriberId", subscriberId);
+        // result.put("subscriberId", subscriberId);
       }
 
       if (sims != null && sims.length() != 0) {
