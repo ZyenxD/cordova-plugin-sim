@@ -164,7 +164,7 @@ public class Sim extends CordovaPlugin {
         phoneNumber = manager.getLine1Number();
         // deviceId = manager.getDeviceId();
         deviceSoftwareVersion = manager.getDeviceSoftwareVersion();
-        simSerialNumber = manager.getSimSerialNumber();
+        // simSerialNumber = manager.getSimSerialNumber();
         subscriberId = manager.getSubscriberId();
       }
 
@@ -205,7 +205,7 @@ public class Sim extends CordovaPlugin {
         result.put("phoneNumber", phoneNumber);
         // result.put("deviceId", deviceId);
         result.put("deviceSoftwareVersion", deviceSoftwareVersion);
-        result.put("simSerialNumber", simSerialNumber);
+        // result.put("simSerialNumber", simSerialNumber);
         result.put("subscriberId", subscriberId);
       }
 
